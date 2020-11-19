@@ -1,11 +1,11 @@
-.footer__column_content_author {
+.footer__column-copyright {
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
 }
 
 @media screen and (max-width: 425px) {
-  .footer__column_content_author {
+  .footer__column-copyright {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;

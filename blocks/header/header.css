@@ -1,0 +1,13 @@
+@import url('./__lang/header__lang.css');
+@import url('./__lang-link/header__lang-link.css');
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,34 @@
+.page__container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: 2A2C2F;
+  display: flex;
+  flex-direction: column;
+  padding: 0 148px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1142px) {
+  .page__container {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 958px) {
+  .page__container {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .page__container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__container {
+    padding: 0 16px;
+  }
+}

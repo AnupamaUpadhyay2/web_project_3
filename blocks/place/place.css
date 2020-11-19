@@ -1,7 +1,8 @@
 @import url(./__columns/place__columns.css);
 @import url(./__title/place__title.css);
 @import url(./__photo/place__photo.css);
-@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
 @import url(./__text-big/place__text-big.css);
 @import url(./__text-small/place__text-small.css);
 .place {

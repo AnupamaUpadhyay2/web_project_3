@@ -4,11 +4,34 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 34px;
+  margin: 34px 100px 0 100px;
+}
+
+@media screen and (max-width: 1142px) {
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 958px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .header {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .header {
     margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 1142px) {
   .places {
     margin: 92px 48px;
@@ -22,7 +21,7 @@
 
 @media screen and (max-width: 656px) {
   .places {
-    margin: 76px 0px;
+    margin: 76px 18px;
     grid-gap: 60px;
   }
 }

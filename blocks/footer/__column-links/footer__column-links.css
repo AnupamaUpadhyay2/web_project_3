@@ -10,7 +10,7 @@
   transition: 1s;
 }
 
-.footer__column-links:hover > .footer__list:hover {
+.footer__column-links:hover>.footer__list:hover {
   opacity: 0.8;
 }
 

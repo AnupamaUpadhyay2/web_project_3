@@ -9,13 +9,6 @@
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1142px) {
-  .lead {
-    margin-top: 58px;
-    margin-bottom: 92px;
-  }
-}
-
 @media screen and (max-width: 958px) {
   .lead {
     margin-top: 50px;
@@ -25,14 +18,12 @@
 
 @media screen and (max-width: 656px) {
   .lead {
-    margin-top: 50px;
-    margin-bottom: 78px;
+      margin-bottom: 78px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead {
-    margin-top: 50px;
     margin-bottom: 64px;
   }
 }

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: inline-flex;
+  display: flex;
   gap: 18px;
   font-weight: normal;
   font-size: 16px;
@@ -10,8 +10,8 @@
   transition: 1s;
 }
 
-.footer__column-links:hover {
-  opacity: 0.5;
+.footer__column-links:hover > .footer__list:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
@@ -19,7 +19,7 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 24px;
-    display: inline-grid;
+    flex-direction: column;
     gap: 32px;
   }
 }

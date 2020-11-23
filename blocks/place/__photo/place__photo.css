@@ -23,6 +23,6 @@
   .place__photo {
     max-width: 320px;
     max-height: 320px;
-    margin: 0 -16px;
+    margin: 0;
   }
 }

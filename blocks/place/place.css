@@ -3,12 +3,15 @@
 @import url(./__photo/place__photo.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
-@import url(./__text-big/place__text-big.css);
-@import url(./__text-small/place__text-small.css);
+@import url(./__text/_size/place__text_size_big.css);
+@import url(./__text/_size/place__text_size_small.css);
+@import url(./__text/place__text.css);
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
+  /* grid-template-rows: min-content min-content; */
+  grid-column-gap: 40px;
+   /* grid-row-gap: 48px; */
 }
 
 @media screen and (max-width: 1142px) {
@@ -33,6 +36,5 @@
 @media screen and (max-width: 425px) {
   .place {
     grid-gap: 32px;
-    grid-template-columns: auto;
   }
 }

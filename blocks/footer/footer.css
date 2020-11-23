@@ -4,23 +4,23 @@
 @import url('./__column-link/footer__column-link.css');
 @import url('./__column-links/footer__column-links.css');
 .footer {
-  margin: 92px -100px 24px -100px;
+  margin: 92px 0 24px 0;
 }
 
 @media screen and (max-width: 1145px) {
   .footer {
-    margin: 88px 0 24px 0;
+    margin: 88px 48px 24px 48px;
   }
 }
 
 @media screen and (max-width: 656px) {
   .footer {
-    margin: 76px 0 24px 0;
+    margin: 76px 24px 24px 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .footer {
-    margin: 64px 0 24px 0;
+    margin: 64px 0 24px 16px;
   }
 }

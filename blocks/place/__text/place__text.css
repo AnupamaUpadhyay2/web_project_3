@@ -1,0 +1,15 @@
+.place__text-box {
+  grid-area: description;
+}
+
+.place__text {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .place__text {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

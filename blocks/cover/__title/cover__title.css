@@ -5,6 +5,7 @@
   margin: 0 0 32px;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 @media screen and (max-width: 425px) {

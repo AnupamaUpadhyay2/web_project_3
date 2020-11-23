@@ -6,8 +6,6 @@
 
 @media screen and (max-width: 425px) {
   .footer__column-copyright {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 14px;
   }
 }

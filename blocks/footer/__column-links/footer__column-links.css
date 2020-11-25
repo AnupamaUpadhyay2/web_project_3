@@ -10,13 +10,8 @@
   transition: 1s;
 }
 
-.footer__column-links:hover>.footer__list:hover {
-  opacity: 0.8;
-}
-
 @media screen and (max-width: 425px) {
   .footer__column-links {
-    font-weight: normal;
     font-size: 24px;
     line-height: 24px;
     flex-direction: column;

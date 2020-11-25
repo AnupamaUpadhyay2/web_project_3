@@ -1,3 +1,7 @@
-.header__lang-link_enable:active {
+/* .header__lang-link_enable:active {
+  text-decoration: underline;
+} */
+
+.header__lang-link_enable {
   text-decoration: underline;
 }
